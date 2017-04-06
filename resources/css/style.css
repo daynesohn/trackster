@@ -1,9 +1,9 @@
 /*
   Custom styles for Trackster App
 */
-html {
+html, body {
   font-size: 16px;
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Work Sans';
 }
 
 .header {
@@ -22,7 +22,7 @@ h1 {
 .header input {
   border-radius: 20px;
   margin-right: 0.625rem;
-  padding: 0.5rem;
+  padding: 0.65rem;
 }
 
 .header .fa-search {
@@ -30,4 +30,20 @@ h1 {
   border-radius: 20px;
   text-align: center;
   background-color: rgb(255, 0, 171);
+}
+
+.titles {
+  background-color: rgb(104, 0, 255);
+  color: rgb(255, 255, 255);
+}
+
+.title {
+  padding: 0.5rem 0;
+}
+
+.track-data {
+  display: flex;
+  align-items: center;
+  padding-top: 0.125rem;
+  padding-bottom: 0.125rem;
 }
