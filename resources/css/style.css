@@ -47,3 +47,11 @@ h1 {
   padding-top: 0.125rem;
   padding-bottom: 0.125rem;
 }
+
+.fa-play-circle-o {
+  color: rgb(255, 0, 171);
+}
+
+.fa-play-circle-o:hover {
+  color: rgb(104, 0, 255);
+}
